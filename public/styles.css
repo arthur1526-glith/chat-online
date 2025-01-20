@@ -1,0 +1,84 @@
+/* Reset básico */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.chat-container {
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Cabeçalho do chat */
+.chat-header {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Área de mensagens */
+.chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    max-height: 300px;
+}
+
+/* Formulário de envio */
+.chat-form {
+    display: flex;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Campo de entrada */
+.chat-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+/* Botão de envio */
+.chat-form button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.chat-form button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para mensagens */
+.chat-messages div {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    word-wrap: break-word;
+    font-size: 14px;
+}
