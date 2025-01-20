@@ -4,7 +4,7 @@ const path = require("path");
 
 const app = express();
 const port = process.env.PORT || 3000;
-const socket = ('https://chat-online-n582.onrender.com');
+const socket = io('https://chat-online-n582.onrender.com');
 
 
 // Servindo arquivos estáticos na pasta "public"
